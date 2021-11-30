@@ -3,9 +3,9 @@ const Web3 = require('web3');
 const compiledFactory = require('./build/CampaignFactory.json');
 
 const provider = new HDWalletProvider(
-  'system woman actress obvious example surge birth spring harbor transfer width clog',
+  '',
   // remember to change this to your own phrase!
-  'https://rinkeby.infura.io/v3/d55c4f57b80445d284aa7754f355aaeb'
+  ''
   // remember to change this to your own endpoint!
 );
 const web3 = new Web3(provider);
