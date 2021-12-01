@@ -28,7 +28,7 @@ class RequestIndex extends Component {
     }
     
     render() {
-        const { Header, Row, HeaderCell, Body, Cell } = Table;
+        const { Header, Row, HeaderCell, Body } = Table;
 
         return (
             <Layout>
